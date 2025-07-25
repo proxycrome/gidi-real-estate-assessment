@@ -200,7 +200,6 @@ The project includes comprehensive test coverage:
 
 - **Unit Tests**: Component and hook testing
 - **Coverage**: 62%+ coverage threshold
-- **CI/CD**: Automated testing in GitHub Actions
 
 Run tests:
 ```bash

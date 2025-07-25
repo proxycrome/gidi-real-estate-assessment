@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
       {filtered.length > 0 ? (
         <ProductList products={filtered} onDelete={remove} />
       ): (
-        <p>No Products Available, Create a Product</p>
+        <p>No Products Available</p>
       )}
       
     </div>

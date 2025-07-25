@@ -182,9 +182,7 @@ describe("HomePage", () => {
     render(<HomePage />);
 
     await waitFor(() => {
-      expect(
-        screen.getByText("No Products Available, Create a Product")
-      ).toBeInTheDocument();
+      expect(screen.getByText("No Products Available")).toBeInTheDocument();
     });
   });
 
